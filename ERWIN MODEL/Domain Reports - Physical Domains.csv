@@ -1,0 +1,36 @@
+"Domain Physical_Name","Comment","Null Option","Physical Data Type"
+<default>,,Null,char(18)
+String,Default string domain,Null,varchar(20)
+Number,Default number domain,Null,integer
+Datetime,Default dateTime domain,Null,datetime
+Blob,Default BLOB domain,Null,varbinary
+dGroupFinalProject,Master default domain for our project's domains,Null,varchar()
+dDatetime,General domain for dateTime data types to mirror default dateTime domain,Null,datetime
+dNumber,General domain for number data types to mirror default number domain,Null,integer
+dString,General domain for string data types to mirror default string domain,Null,varchar(50)
+dBlob,General domain for a BLOB data type to mirror default BLOB domain,Null,varbinary(max)
+sdYYYYMMDDDatetime,Subdomain for a dateTime data type using the YYYYMMDD format,Null,datetime
+sdIdNumber,Subdomain for a number data type describing an identification value,Null,integer
+sdPercentNumber,Subdomain for a number data type describing a percentage value,Null,integer
+sdMoneyNumber,Subdomain for number data types describing a monetary value,Null,"decimal(18,2)"
+sdPriceNumber,Subdomain for a number data type describing a monetary value related to a sales price,Null,"decimal(18,2)"
+sdFeeNumber,Subdomain for a number data type describing a monetary value related to a fee,Null,"decimal(18,2)"
+sdLocationString,Subdomain for string data types describing a location,Null,varchar(50)
+sdCountryString,Subdomain for a string data type describing a country,Null,varchar(50)
+sdTownString,Subdomain for a string data type describing a town,Null,varchar(50)
+sdZipCodeString,Subdomain for a string data type describing a postal code,Null,char(10)
+sdRegionString,Subdomain for a string data type describing a region,Null,varchar(50)
+sdAddressString,Subdomain for a string data type describing an address location,Null,varchar(50)
+sdCommentaryString,Subdomain for a string data type describing a general commentary,Null,varchar(50)
+sdNameString,Subdomain for string data types that describe names,Null,varchar(50)
+sdPersonName,Subdomain for a string data type that describe the name of a person,Null,varchar(50)
+sdMakeName,"Subdomain for a string data type that describe a car make name (car manufacturer ie Toyota, Honda)",Null,varchar(50)
+sdModelName,Subdomain for a string data type that describe a car model name,Null,varchar(50)
+sdDepartmentName,Subdomain for a string data type that describe a department name,Null,varchar(50)
+sdFlagString,Subdomain for a string data type flag value,Null,char(1)
+sdCarInfoString,Subdomain for string data types describing a car specification,Null,varchar(50)
+sdDetailsString,Subdomain for a string data type describing a car specification detail,Null,varchar(50)
+sdVinNumberString,Subdomain for a string data type describing a car vin number,Null,char(17)
+sdYYYYString,Subdomain for a string data type describing a car year value,Null,char(4)
+sdDriveTrainCodeString,,Null,char(10)
+sdDriveTrainDescriptionString,,Null,varchar(20)
