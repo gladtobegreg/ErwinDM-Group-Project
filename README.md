@@ -8,3 +8,5 @@ From conceptual design to implementation, we crafted detailed diagrams, includin
 ![preview of project and project presentation - domains](./previewImages/edmDomainSlide.png)
 
 ![preview of project and project presentation - data definition language](./previewImages/edmDdlSlide.png)
+
+See the presentation video [on Youtube](https://youtu.be/TkNdENWeHyk).
